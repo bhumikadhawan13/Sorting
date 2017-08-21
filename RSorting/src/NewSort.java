@@ -3,6 +3,7 @@ public class NewSort {
 	void sort(int arr[]){
 		int n = arr.length;
 		// One by one move boundary of unsorted subarray
+		
 		for (int i = 0; i < n-1; i++)
 		{
 		// Find the minimum element in unsorted array
